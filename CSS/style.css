@@ -1,0 +1,34 @@
+/*Global Style*/
+body{
+    font-size: 62.5%;
+}
+
+/*Header Style*/
+.nav{
+    margin: -10px;/*使得導覽列最邊處沒有白邊*/
+}
+
+.nav_list{
+    display: flex;
+    background-color: rgb(15, 76, 129);
+    margin: 0;
+}
+.nav_list_item{
+    list-style: none;
+    padding:12px 30px;
+}
+.nav_list_item_link{
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    font-family: ;
+    font-size: 1.6em;
+}
+.nav_list_item_link_img{
+    display: block;
+    width: 25px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
