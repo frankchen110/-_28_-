@@ -1,17 +1,27 @@
 /*Global Style*/
 body{
+    padding-top: 0;
     font-size: 62.5%;
+    background-image: url("./");
 }
 
 /*Header Style*/
 .nav{
     margin: -10px;/*使得導覽列最邊處沒有白邊*/
 }
-
 .nav_list{
     display: flex;
-    background-color: rgb(15, 76, 129);
+    background-color:  rgb(15, 76, 129);
     margin: 0;
+}
+.nav_list:hover{
+    background-color:black;
+    transition-duration: 0.4s;
+}
+
+.nav_list_item_link:hover{
+    color: rgb(148, 203, 248);
+    transition-duration: 0.4s;
 }
 .nav_list_item{
     list-style: none;
@@ -31,4 +41,79 @@ body{
     margin: 0px;
     padding: 0px;
     border: 0px;
+}
+
+/*Guide Style*/
+.Guide{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.Guide_title{
+    background-color: rgb(117, 175, 226);
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: snow;
+    font-size: 4em;
+    padding-left: 20%;
+    line-height: 150px;
+}
+.Guide_img{
+    position: absolute;
+    width: 100px;
+    margin-left: 60%;
+    margin-top: 20px;
+    padding: 0px;
+    border: 0px;
+}
+.align{
+    padding-left: 20%;
+}
+.sort_list{
+    display: flex;
+}
+.sort_list_item{
+    list-style: none;
+    
+}
+.sort_list_item_link_1{
+    display: block;
+    text-decoration: none;
+    font-size: 1.6em;
+    color: black;
+    border-top: 2px solid rgb(211, 211, 211);
+    border-left: 2px solid rgb(211, 211, 211);
+    
+    border-radius: 3px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.sort_list_item_link_2{
+    display: block;
+    text-decoration: none;
+    font-size: 1.6em;
+    color: black;
+    border-top: 2px solid rgb(211, 211, 211);
+    border-left: 2px solid rgb(211, 211, 211);
+    border-right: 2px solid rgb(211, 211, 211);
+    border-radius: 3px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+   
+}
+.content{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -10px;
+    border-top: 2px solid rgb(211, 211, 211);
 }
