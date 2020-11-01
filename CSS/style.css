@@ -56,6 +56,7 @@ body{
     padding: 10px;
     text-decoration: none;
     opacity: 0.4;
+    box-shadow: 5px 5px 8px #888888
 }
 .btn_text:hover{
     border: 3px rgb(15, 76, 129) solid;
@@ -181,6 +182,7 @@ body{
     background-color: rgb(247,237,210);
     color: dimgray;
     border-radius: 5px;
+    box-shadow: 5px 5px 8px #888888
 }
 .漂泊過海_img{
     display: block;
@@ -204,6 +206,7 @@ body{
     background-color: rgb(247,237,210);
     color: dimgray;
     border-radius: 5px;
+    box-shadow: 5px 5px 8px #888888
 }
 .不凡地位_img{
     display: block;
@@ -228,6 +231,7 @@ body{
     background-color: rgb(247,237,210);
     color: dimgray;
     border-radius: 5px;
+    box-shadow: 5px 5px 8px #888888
 }
 .宛若母親_img{
     display: block;
