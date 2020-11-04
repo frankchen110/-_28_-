@@ -70,7 +70,7 @@ body{
 .wave-container {
     position: absolute;
     background-color: rgb(15, 76, 129);
-    width: 100%;
+    width: 100vw;
     height: 150px;
     margin: 10px -10px;
     overflow: hidden;
@@ -79,8 +79,6 @@ body{
   .wave {
     position: absolute;
     bottom: 60%;
-    width: 450px;
-    height: 100px;
     
   }
   
@@ -90,13 +88,13 @@ body{
     opacity: 0.5;
     border-radius: 40%;
     position: absolute;
-    left: -150%;
-    bottom: 10%;
-    width: 5000px;
-    height: 5000px;
-    -webkit-animation: spin 16s linear infinite;
-    -moz-animation: spin 16s linear infinite;
-    animation: spin 16s linear infinite;
+    left: -250%;
+    bottom: 60px;
+    width: 3000px;
+    height: 3000px;
+    -webkit-animation: spin 24s linear infinite;
+    -moz-animation: spin 24s linear infinite;
+    animation: spin 24s linear infinite;
   }
   
   .wave::after {
@@ -105,13 +103,13 @@ body{
     opacity: 0.5;
     border-radius: 40%;
     position: absolute;
-    left: -150%;
-    bottom: 10%;
-    width:5000px;
-    height: 5000px;
-    -webkit-animation: spin 20s linear infinite;
-    -moz-animation: spin 20s linear infinite;
-    animation: spin 20s linear infinite;
+    left: -250%;
+    bottom: 60px;
+    width:3000px;
+    height: 3000px;
+    -webkit-animation: spin 25s linear infinite;
+    -moz-animation: spin 25s linear infinite;
+    animation: spin 25s linear infinite;
   }
   
   @-moz-keyframes spin {
